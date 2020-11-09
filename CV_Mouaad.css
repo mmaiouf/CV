@@ -1,490 +1,442 @@
 /* general block */
-#cv
-{
-	border : 1px solid #DCDCDC;
-	margin : auto;
-	width : 672px;
-	height : 924px;
-	font-family: "Calibri";
-}
-
+	#cv
+	{
+		border : 1px solid #DCDCDC;
+		margin : auto;
+		width : 672px;
+		height : 924px;
+		font-family: "Calibri";
+	}
 
 
 
 /* title block */
-#first_block_header
-{
-	background-color : #FAFAFA;
-	text-align : center;
-	height : 90px;
+	#first_block_header
+	{
+		background-color : #FAFAFA;
+		text-align : center;
+		height : 90px;
+	}
 
-}
+	#first_block_header h1
+	{
+		color : #074A96;
+		font-size : 50px;
+		margin : auto;
+	}
 
-#first_block_header h1
-{
-	color : #074A96;
-	font-size : 50px;
-	margin : auto;
-}
-
-#first_block_header p
-{
-	color : #074A96;
-	font-size : 20px;
-	margin : auto;
-}
-
-
-
-
+	#first_block_header p
+	{
+		color : #074A96;
+		font-size : 20px;
+		margin : auto;
+	}
 
 
 
 /* second block : intro + picture */
+	#second_block_header
+	{
+		width : 672px;
+		display : flex;
+		height : 241px;
+		position : relative;
+	}
 
-#second_block_header
-{
-	width : 672px;
-	display : flex;
-	height : 241px;
-	position : relative;
+	#second_block_header #intro
+	{
+		text-align : justify;
+		width : 431px;
+		background-color : #074A96;
+		color : white;
+		padding-left : 15px;
+		padding-right : 15px;
+		margin-right : 1px;
+	}
 
-}
+	#second_block_header #intro p
+	{
+		margin-top : 15px;
+	}
 
-#second_block_header #intro
-{
-	text-align : justify;
-	width : 431px;
-	background-color : #074A96;
-	color : white;
-	padding-left : 15px;
-	padding-right : 15px;
-	margin-right : 1px;
-	
+	#second_block_header #photo
+	{
+		width : 241px;
+		margin-right : 2px;
+	}
 
-}
+	#second_block_header img
+	{
+		margin-top : -16px;
+	}
 
-#second_block_header #intro p
-{
-	margin-top : 15px;
-}
-
-#second_block_header #photo
-{
-	width : 241px;
-	margin-right : 2px;
-
-}
-
-#second_block_header img
-{
-	margin-top : -16px;
-}
-
-section
-{
-	display : flex;
-}
-
-
-
+	section
+	{
+		display : flex;
+	}
 
 
 
 /* work experience + education */
-article
-{
-	width : 420px;
-	height : 593px;
-}
-
+	article
+	{
+		width : 420px;
+		height : 593px;
+	}
 
 
 
 /* work experience */
+	#exp
+	{
+		height : 420px;
+		border : 1px solid white;
+	}
 
-#exp
-{
-	height : 420px;
-	border : 1px solid white;
-}
+	#exp h1
+	{
+		color : #074A96;
+		font-size : 20px;
+		margin-left : 20px;
+		padding-bottom : 7px;
+		width : 380px;
+		border-bottom: 1px solid #C3C3C3;
+	}
 
-#exp h1
-{
-	color : #074A96;
-	font-size : 20px;
-	margin-left : 20px;
-	padding-bottom : 7px;
-	width : 380px;
-	border-bottom: 1px solid #C3C3C3;
-}
+	#exp .flexbox_worktime_jobdescription
+	{
+		display : flex;
+	}
 
-#exp .flexbox_worktime_jobdescription
-{
-	display : flex;
-}
+	#exp .work_time
+	{
+		background-color : #074A96;
+		margin-left : 20px;
+		border: 1px solid #C3C3C3;
+		border-radius : 50%;
+		color : white;
+		font-size : 10px;
+		width : 45px;
+		height : 43px;
+	}
 
+	#exp .work_time p
+	{
+		text-align : center;
+		margin-top : 8px;
+	}
 
-#exp .work_time
-{
-	background-color : #074A96;
-	margin-left : 20px;
-	border: 1px solid #C3C3C3;
-	border-radius : 50%;
-	color : white;
-	font-size : 10px;
-	width : 45px;
-	height : 43px;
-}
+	#exp .work_time_2
+	{
+		background-color : #074A96;
+		margin-left : 20px;
+		border: 1px solid #C3C3C3;
+		border-radius : 50%;
+		color : white;
+		font-size : 10px;
+		width : 50px;
+		height : 43px;
+	}
 
-#exp .work_time p
-{
-	text-align : center;
-	margin-top : 8px;
-}
+	#exp .work_time_2 p
+	{
+		text-align : center;
+		margin-top : 8px;
+	}
 
+	#exp .work_time_3
+	{
+		background-color : #074A96;
+		margin-left : 20px;
+		border: 1px solid #C3C3C3;
+		border-radius : 50%;
+		color : white;
+		font-size : 10px;
+		width : 45px;
+		height : 43px;
+	}
 
-#exp .work_time_2
-{
-	background-color : #074A96;
-	margin-left : 20px;
-	border: 1px solid #C3C3C3;
-	border-radius : 50%;
-	color : white;
-	font-size : 10px;
-	width : 50px;
-	height : 43px;
-}
+	#exp .work_time_3 p
+	{
+		text-align : center;
+		margin-top : 8px;
+	}
 
-#exp .work_time_2 p
-{
-	text-align : center;
-	margin-top : 8px;
-}
+	#exp .work_time_4
+	{
+		background-color : #074A96;
+		margin-left : 20px;
+		border: 1px solid #C3C3C3;
+		border-radius : 50%;
+		color : white;
+		font-size : 10px;
+		width : 55px;
+		height : 43px;
+	}
 
-#exp .work_time_3
-{
-	background-color : #074A96;
-	margin-left : 20px;
-	border: 1px solid #C3C3C3;
-	border-radius : 50%;
-	color : white;
-	font-size : 10px;
-	width : 45px;
-	height : 43px;
-}
+	#exp .work_time_4 p
+	{
+		text-align : center;
+		margin-top : 8px;
+	}
 
-#exp .work_time_3 p
-{
-	text-align : center;
-	margin-top : 8px;
-}
+	#exp .work_time_5
+	{
+		background-color : #074A96;
+		margin-left : 20px;
+		border: 1px solid #C3C3C3;
+		border-radius : 50%;
+		color : white;
+		font-size : 10px;
+		width : 38px;
+		height : 43px;
+	}
 
-#exp .work_time_4
-{
-	background-color : #074A96;
-	margin-left : 20px;
-	border: 1px solid #C3C3C3;
-	border-radius : 50%;
-	color : white;
-	font-size : 10px;
-	width : 55px;
-	height : 43px;
-}
+	#exp .work_time_5 p
+	{
+		text-align : center;
+		margin-top : 8px;
+	}
 
-#exp .work_time_4 p
-{
-	text-align : center;
-	margin-top : 8px;
-}
+	#exp .job
+	{
+		margin-left : 12px;
+		margin-top : -8px;
+	}
 
-#exp .work_time_5
-{
-	background-color : #074A96;
-	margin-left : 20px;
-	border: 1px solid #C3C3C3;
-	border-radius : 50%;
-	color : white;
-	font-size : 10px;
-	width : 38px;
-	height : 43px;
-}
+	#exp .job .title_job 
+	{
+		font-weight : bold;
+		font-size : 12px;
+	}
 
-#exp .work_time_5 p
-{
-	text-align : center;
-	margin-top : 8px;
-}
+	#exp .job .company_city_time
+	{
+		margin-top : -10px;
+	}
 
+	#exp .job .company_city_time p 
+	{
+		font-style : italic;
+		font-size : 11px;
+		color : #026FEA;
+		font-weight : bold;
+	}
 
-#exp .job
-{
-	margin-left : 12px;
-	margin-top : -8px;
-}
+	#exp .job .job_description
+	{
+		margin-top : -10px;
+	}
 
-#exp .job .title_job 
-{
-	font-weight : bold;
-	font-size : 12px;
-}
-
-
-
-#exp .job .company_city_time
-{
-	margin-top : -10px;
-}
-
-#exp .job .company_city_time p 
-{
-	font-style : italic;
-	font-size : 11px;
-	color : #026FEA;
-	font-weight : bold;
-}
-
-
-
-#exp .job .job_description
-{
-	margin-top : -10px;
-}
-
-#exp .job .job_description p 
-{
-	font-size : 11px;
-}
-
-
+	#exp .job .job_description p 
+	{
+		font-size : 11px;
+	}
 
 
 
 /* Education */
-#education
-{
-	height : 171px;
-	border : 1px solid white;
-	
-}
+	#education
+	{
+		height : 171px;
+		border : 1px solid white;
+	}
 
-#education h1
-{
-	margin-top : 10px;
-	color : #074A96;
-	font-size : 20px;
-	margin-left : 20px;
-	padding-bottom : 7px;
-	width : 380px;
-	border-bottom: 1px solid #C3C3C3;
-}
+	#education h1
+	{
+		margin-top : 10px;
+		color : #074A96;
+		font-size : 20px;
+		margin-left : 20px;
+		padding-bottom : 7px;
+		width : 380px;
+		border-bottom: 1px solid #C3C3C3;
+	}
 
-#education .flexbox_formationtime_formationdescription
-{
-	display : flex;
-}
+	#education .flexbox_formationtime_formationdescription
+	{
+		display : flex;
+	}
 
-#education .formation_time_1
-{
-	background-color : #074A96;
-	margin-left : 20px;
-	border: 1px solid #C3C3C3;
-	border-radius : 50%;
-	color : white;
-	font-size : 10px;
-	width : 40px;
-	height : 43px;
-	margin-top : -5px;
-}
+	#education .formation_time_1
+	{
+		background-color : #074A96;
+		margin-left : 20px;
+		border: 1px solid #C3C3C3;
+		border-radius : 50%;
+		color : white;
+		font-size : 10px;
+		width : 40px;
+		height : 43px;
+		margin-top : -5px;
+	}
 
-#education .formation_time_1 p
-{
-	text-align : center;
-	margin-top : 8px;
-}
+	#education .formation_time_1 p
+	{
+		text-align : center;
+		margin-top : 8px;
+	}
 
+	#education .formation
+	{
+		margin-left : 12px;
+		margin-top : -15px;
+	}
 
+	#education .formation .diploma 
+	{
+		font-weight : bold;
+		font-size : 12px;
+	}
 
+	#education .formation .diploma_name
+	{
+		margin-top : -10px;
+	}
 
+	#education .formation .diploma_name p 
+	{
+		font-style : italic;
+		font-size : 11px;
+		color : #026FEA;
+		font-weight : bold;
+	}
 
+	#education .formation .city_country
+	{
+		margin-top : -10px;
+	}
 
-#education .formation
-{
-	margin-left : 12px;
-	margin-top : -15px;
-}
+	#education .formation .city_country p 
+	{
+		font-size : 11px;
+		margin-bottom : 15px;
+	}
 
-#education .formation .diploma 
-{
-	font-weight : bold;
-	font-size : 12px;
-}
+	#education .formation_time_2
+	{
+		background-color : #074A96;
+		margin-left : 21px;
+		border: 1px solid #C3C3C3;
+		border-radius : 50%;
+		color : white;
+		font-size : 10px;
+		width : 28px;
+		height : 30px;
+		margin-top : -5px;
+		margin-right : 1px;
+		padding : 6px;
+	}
 
-#education .formation .diploma_name
-{
-	margin-top : -10px;
-}
-
-#education .formation .diploma_name p 
-{
-	font-style : italic;
-	font-size : 11px;
-	color : #026FEA;
-	font-weight : bold;
-}
-
-#education .formation .city_country
-{
-	margin-top : -10px;
-}
-
-#education .formation .city_country p 
-{
-	font-size : 11px;
-	margin-bottom : 15px;
-}
-
-
-
-#education .formation_time_2
-{
-	background-color : #074A96;
-	margin-left : 21px;
-	border: 1px solid #C3C3C3;
-	border-radius : 50%;
-	color : white;
-	font-size : 10px;
-	width : 28px;
-	height : 30px;
-	margin-top : -5px;
-	margin-right : 1px;
-	padding : 6px;
-}
-
-
-#education .formation_time_2 p
-{
-	text-align : center;
-	margin-top : 8px;
-}
-
-
+	#education .formation_time_2 p
+	{
+		text-align : center;
+		margin-top : 8px;
+	}
 
 
 
 /* contact + skills + hobbies */
-aside
-{
-	width : 243px;
-	height : 593px;
-	margin-left : 9px;
-}
+	aside
+	{
+		width : 243px;
+		height : 593px;
+		margin-left : 9px;
+	}
+
 
 
 /* Contact */
+	#contact
+	{
+		background-color: #074A96;
+		width : 240px;
+		height : 155px;
+		border : 1px solid #074A96;
+	}
 
-#contact
-{
-	background-color: #074A96;
-	width : 240px;
-	height : 155px;
-	border : 1px solid #074A96;
-}
+	#contact h1
+	{
+		color : white;
+		border-bottom : 1px solid white;
+		width : 200px;
+		margin-left : 20px;
+		padding-bottom : 9px;
+	}
 
-#contact h1
-{
-	color : white;
-	border-bottom : 1px solid white;
-	width : 200px;
-	margin-left : 20px;
-	padding-bottom : 9px;
-}
+	#p_contact
+	{
+		color : white;
+		font-size : 11px;
+		margin-left : 20px;
+		margin-top : -12px;
+	}
 
-#p_contact
-{
-	color : white;
-	font-size : 11px;
-	margin-left : 20px;
-	margin-top : -12px;
-}
-
-
-#p_contact a:hover
-{
-	color : white;
-}
+	#p_contact a:hover
+	{
+		color : white;
+	}
 
 
 
+/* Skills */
+	#skills
+	{
+		background-color: #F9F9F9;
+		width : 240px;
+		height : 304px;
+		border : 1px solid #F9F9F9;
+	}
 
+	#skills h1
+	{
+		color : #074A96;
+		border-bottom : 1px solid #074A96;
+		width : 200px;
+		margin-left : 20px;
+		padding-bottom : 7px;
+	}
 
-
-
-/* Compétences */
-
-#skills
-{
-	background-color: #F9F9F9;
-	width : 240px;
-	height : 304px;
-	border : 1px solid #F9F9F9;
-}
-
-#skills h1
-{
-	color : #074A96;
-	border-bottom : 1px solid #074A96;
-	width : 200px;
-	margin-left : 20px;
-	padding-bottom : 7px;
-}
-
-#skills #p_skills
-{
-	color : #074A96;
-	font-size : 11px;
-	margin-left : 20px;
-	margin-top : -12px;
-}
+	#skills #p_skills
+	{
+		color : #074A96;
+		font-size : 11px;
+		margin-left : 20px;
+		margin-top : -12px;
+	}
 
 
 
 
 /* Hobbies */
+	#hobbies
+	{
+		background-color: #074A96;
+		width : 240px;
+		height : 127px;
+		border : 1px solid #074A96;
+	}
 
-#hobbies
-{
-	background-color: #074A96;
-	width : 240px;
-	height : 127px;
-	border : 1px solid #074A96;
-}
+	#hobbies h1
+	{
+		color : white;
+		border-bottom : 1px solid white;
+		width : 200px;
+		margin-left : 20px;
+		padding-bottom : 7px;
+	}
 
-#hobbies h1
-{
-	color : white;
-	border-bottom : 1px solid white;
-	width : 200px;
-	margin-left : 20px;
-	padding-bottom : 7px;
-}
+	#hobbies #p_hobbies
+	{
+		color : white;
+		font-size : 11px;
+		margin-top : -20px;
+	}
 
-#hobbies #p_hobbies
-{
-	color : white;
-	font-size : 11px;
-	margin-top : -20px;
-}
-
-#hobbies #p_hobbies #display_flex_hobbies
-{
-	display : flex;
-}
-
-
-
-
-
+	#hobbies #p_hobbies #display_flex_hobbies
+	{
+		display : flex;
+	}
 
 
 
@@ -492,196 +444,156 @@ aside
 
 
 
-
-
-
-
-
 /* responsive */
-
-
 @media screen and (max-width : 672px)
-{
-
-	/* general block */
-	#cv
-	{
-		width : auto;
-		height : auto;
-	}
-
-
-
-	/* title block */
-	#first_block_header
-	{
-		width : auto;
-
-	}
-
-	#first_block_header h1
-	{
-		font-size : 40px;
-	}
-
-	#first_block_header p
-	{
-		font-size : 20px;
-	}
-
-
-
-
-
-
-	/* second block : intro + picture */
-
-	#second_block_header
-	{
-		width : auto;
-
-	}
-
-	#second_block_header #intro
-	{
-		width : auto;
-	}
-
-	#second_block_header #intro p
-	{
-		font-size : 12px;
-	}
-
-	#second_block_header #photo
-	{
-		width : auto;
-
-	}
-
-	#second_block_header img
-	{
-		width : auto;
-	}
-
-
-
-	section
-	{
-		display : flex;
-		flex-direction : column;
-	}
-
-	article
-	{
-		width : auto;
-	}
-
-
-	aside
-	{
-		display : flex;
-		flex-direction : column;
-		margin-left : 0px;
-		width : auto;
-		height : auto;
-		position : relative;
-	}
-
-	.element:nth-child(1) /* contact */
-	{
-		order : 2;
-	}
-
-	.element:nth-child(2) /* skills */
-	{
-		order : 1;
-	}
-
-	.element:nth-child(3) /* hobbies */
-	{
-		order : 3;
-	}
-
-
-
-
-	#skills
-	{
-		width : auto;
-	}
-
-
-	/* Compétences */
-
-
-	#skills #p_skills
-	{
-		
-		width : auto;
-	}
-
-	#skills #p_skills p 
-	{
-		font-size : 12px;
-	}
-
-
-
-
-	#contact
-	{
-		width : 230px;
-		height : 154px;
-	}
-
-
-
-
-
-
-	#hobbies
-	{
-		width : auto;
-		height : 154px;
-		position : absolute;
-		right : 0;
-		top : 306;
-	}
-
-	#hobbies h1
-	{
-		padding-bottom : 9px;
-	}
-
-	#hobbies #p_hobbies
-	{
-		
-		font-size : 11px;
-		
-	}
-
-
-	#display_flex_hobbies
 	{
 
-		padding-right : 3px;
-		padding-top : 3px;
-	}
+		/* general block */
+			#cv
+			{
+				width : auto;
+				height : auto;
+			}
 
 
 
+		/* title block */
+			#first_block_header
+			{
+				width : auto;
+			}
+
+			#first_block_header h1
+			{
+				font-size : 40px;
+			}
+
+			#first_block_header p
+			{
+				font-size : 20px;
+			}
 
 
 
+		/* second block : intro + picture */
+			#second_block_header
+			{
+				width : auto;
+			}
+
+			#second_block_header #intro
+			{
+				width : auto;
+			}
+
+			#second_block_header #intro p
+			{
+				font-size : 12px;
+			}
+
+			#second_block_header #photo
+			{
+				width : auto;
+
+			}
+
+			#second_block_header img
+			{
+				width : auto;
+			}
 
 
+
+		/* Global */
+			section
+			{
+				display : flex;
+				flex-direction : column;
+			}
+
+			article
+			{
+				width : auto;
+			}
+
+			aside
+			{
+				display : flex;
+				flex-direction : column;
+				margin-left : 0px;
+				width : auto;
+				height : auto;
+				position : relative;
+			}
+
+			.element:nth-child(1) /* contact */
+			{
+				order : 2;
+			}
+
+			.element:nth-child(2) /* skills */
+			{
+				order : 1;
+			}
+
+			.element:nth-child(3) /* hobbies */
+			{
+				order : 3;
+			}
+
+
+
+		/* Compétences */
+			#skills
+			{
+				width : auto;
+			}
+
+			#skills #p_skills
+			{
+				
+				width : auto;
+			}
+
+			#skills #p_skills p 
+			{
+				font-size : 12px;
+			}
+
+
+
+		/* Contact */
+			#contact
+			{
+				width : 230px;
+				height : 154px;
+			}
+
+
+
+		/* Hobbies */
+			#hobbies
+			{
+				width : auto;
+				height : 154px;
+				position : absolute;
+				right : 0;
+				top : 306;
+			}
+
+			#hobbies h1
+			{
+				padding-bottom : 9px;
+			}
+
+			#hobbies #p_hobbies
+			{
+				font-size : 11px;
+			}
+
+			#display_flex_hobbies
+			{
+				padding-right : 3px;
+				padding-top : 3px;
+			}
 } 
-
-
-
-
-
-
-
-
-/* FIN */
