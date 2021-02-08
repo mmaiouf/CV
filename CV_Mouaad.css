@@ -52,6 +52,7 @@
 		padding-left : 15px;
 		padding-right : 15px;
 		margin-right : 1px;
+		font-size : 15px;
 	}
 
 	#second_block_header #intro p
@@ -274,7 +275,7 @@
 	#education .formation_time_1 p
 	{
 		text-align : center;
-		margin-top : 8px;
+		margin-top : 14px;
 	}
 
 	#education .formation
